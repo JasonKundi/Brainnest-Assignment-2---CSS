@@ -267,5 +267,7 @@ body {
 .subtext-footer {
     display: flex;
     justify-content:space-evenly;
+    font-family: 'roboto-light-italic';
+    color:#F9FAF8;
 }
 
