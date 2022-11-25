@@ -1,0 +1,30 @@
+* {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage-heading-1 {
+    color: blue;
+    font-size: 30px;
+}
+
+.about-heading-1 {
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.about-paragraph {
+    color: crimson;
+}
+
+.homepage-image {
+    border: solid 1px black;
+    border-radius: 40%;
+}
+
+.jason-image {
+    border: solid   1px purple;
+    border-radius: 25%;
+    height: auto;
+    width: 400px;
+}
