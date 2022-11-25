@@ -156,8 +156,8 @@ body {
     flex-direction: row;
     height: 200px;
     width: 200px;
-    border: #3882F6 solid 1px;
-    border-radius: 30%;
+    border: #3882F6 solid 3px;
+    border-radius: 25px;
 }
 
 .under-random-cards {
@@ -213,14 +213,59 @@ body {
 .call-to-action-section-container {
     
     background-color: #ffff;
-    padding: 50px 50px 50;
-    height: 300px;
+    padding: 50px 50px;
+    height: 250px;
+    padding: 180px;
 }
 
-.call-to-action {
+.call-to-action-border {
     display: flex;
     justify-content: space-between;
+    border: solid   1px;
     border-style :#3882F6 solid;
-    padding: 200px;
+    border-radius: 30px 30px 30px 30px;;
+    background-color: #3882F6;
+    padding:50px;
+}
+
+.call-to-action-content {
+    display: inline;
+    justify-content: space-between;
+}
+
+.header-call {
+    font-family: 'roboto-bold';
+    font-size: 28px;
+    color: #E5E7EB;
+    
+}
+.subtext-call {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.sign-up-button-2 {
+    display: flex;
+    border-radius: 15% 15% 15% 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    height:30px;
+    width: 100px;
+}
+
+/* -------- footer -------- */
+
+.footer {
+    background-color: #1F2937;
+    height: 80px;
+
+}
+
+.subtext-footer {
+    display: flex;
+    justify-content:space-evenly;
 }
 
