@@ -1,4 +1,154 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(fonts/roboto);
+    src: url("./fonts/Roboto/Roboto-Regular.ttf"),
+         url("./fonts/Roboto/Roboto-Black.ttf"),
+         url("./fonts/Roboto/Roboto-Bold.ttf"),
+         url("./fonts/Roboto/Roboto-BlackItalic.ttf"),
+         url("./fonts/Roboto/Roboto-BoldItalic.ttf"),
+         url("./fonts/Roboto/Roboto-Italic.ttf");
+
+}
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+/* Hero section */
+
+.hero-section-container {
+    background-color: #1F2937;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 600px;
+}
+
+.navbar {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link-text {
+    display: flex;
+    font-size: 18px;
+    padding-left: 40px;
+    color: #E5E7EB;
+}
+
+.hero-bottom-container {
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-bottom-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.hero-bottom-right {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-main-text {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    display: flex;
+    border-radius: 15% 15% 15% 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    height:30px;
+    width: 100px;
+
+}
+
+.hero-image-placeholder {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    background-color: #a2a4a9;
+}
+
+.hero-image-text {
+    font-size: 18px;
+    padding-left: 40px;
+    color: #E5E7EB;
+}
+
+/* Random Section */
+
+.random-section-container {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 300px;
+}
+
+.header-random {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.random-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.random-card {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 200px;
+    border: #3882F6 solid 1px;
+    border-radius: 30%;
+}
+
+.under-random-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.random-card-text {
+    font-size: 18px;
+    color: #878b94;
+    width: 200px;
+
 }
